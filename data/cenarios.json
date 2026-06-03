@@ -1,0 +1,41 @@
+{
+  "normal": {
+    "timestamp": "2026-06-01T10:00:00Z",
+    "orbita": 3847,
+    "area_monitorada": "Amazônia Legal - PA/AM",
+    "sensor_termico": 32.5,
+    "sensor_optico": "OPERACIONAL",
+    "buffer_imagens": 85.0,
+    "geolocalizacao": 97.5,
+    "energia": 78.0,
+    "focos_detectados": 1,
+    "qualidade_downlink": 88.0,
+    "cobertura_nuvens": 15.0
+  },
+  "alerta": {
+    "timestamp": "2026-06-01T14:30:00Z",
+    "orbita": 4102,
+    "area_monitorada": "Cerrado - MT/GO",
+    "sensor_termico": 74.0,
+    "sensor_optico": "DEGRADADO",
+    "buffer_imagens": 230.0,
+    "geolocalizacao": 87.0,
+    "energia": 42.0,
+    "focos_detectados": 10,
+    "qualidade_downlink": 65.0,
+    "cobertura_nuvens": 38.0
+  },
+  "critico": {
+    "timestamp": "2026-06-01T18:45:00Z",
+    "orbita": 5210,
+    "area_monitorada": "Pantanal - MS",
+    "sensor_termico": 93.0,
+    "sensor_optico": "FALHA",
+    "buffer_imagens": 420.0,
+    "geolocalizacao": 65.0,
+    "energia": 15.0,
+    "focos_detectados": 25,
+    "qualidade_downlink": 35.0,
+    "cobertura_nuvens": 10.0
+  }
+}
