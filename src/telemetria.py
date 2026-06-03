@@ -24,12 +24,12 @@ def gerar_telemetria_simulada() -> dict:
         return round(random.uniform(minimo, maximo), 2)
 
     sensor_termico = valor_com_anomalia(18.0, 45.0, chance=0.12)
-    energia = max(0.0, valor_com_anomalia(30.0, 100.0, chance=0.12))
-    buffer_imagens = round(max(0.0, valor_com_anomalia(0.0, 250.0, chance=0.15)), 1)
-    geolocalizacao = min(100.0, valor_com_anomalia(85.0, 100.0, chance=0.10))
+    energia = round(max(0.0, min(100.0, valor_com_anomalia(30.0, 100.0, chance=0.12))), 2)
+    buffer_imagens = round(max(0.0, min(500.0, valor_com_anomalia(0.0, 250.0, chance=0.15))), 1)
+    geolocalizacao = round(max(0.0, min(100.0, valor_com_anomalia(85.0, 100.0, chance=0.10))), 2)
     focos_detectados = max(0, int(valor_com_anomalia(0, 8, chance=0.20)))
-    qualidade_downlink = valor_com_anomalia(70.0, 100.0, chance=0.10)
-    cobertura_nuvens = round(max(0.0, valor_com_anomalia(0.0, 40.0, chance=0.18)), 1)
+    qualidade_downlink = round(max(0.0, min(100.0, valor_com_anomalia(70.0, 100.0, chance=0.10))), 2)
+    cobertura_nuvens = round(max(0.0, min(100.0, valor_com_anomalia(0.0, 40.0, chance=0.18))), 1)
 
     opcoes_optico = (
         ["OPERACIONAL"] * 8 +
