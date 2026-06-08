@@ -44,9 +44,11 @@ O sistema serve a **três perfis**:
 
 ## ▶️ Como executar
 > ⚠️ **Importante:** este projeto utiliza `prompt-toolkit` para a interface CLI interativa.
-> Por isso, **não rode pelo terminal embutido de IDEs** (PyCharm, VSCode, etc.) —
-> elas não são consoles Windows reais e causam erro.
-> Execute sempre pelo **cmd.exe** ou **PowerShell** do Windows diretamente.
+> Para rodar pelo terminal do PyCharm, é necessário habilitar a opção **"Emulate terminal in output console"**:
+> vá em **Run → Edit Configurations → Modify options** e marque essa opção.
+> Sem isso, o PyCharm não reconhece o console como um terminal real e o projeto não abre corretamente.
+> Alternativamente, você também pode rodar pelo **cmd.exe** ou **PowerShell** do Windows diretamente,
+> sem nenhuma configuração adicional.
 ```bash
 # 1. Clone o repositório
 git clone https://github.com/victorcbinot/MISSION-CONTROL-AI--GS
