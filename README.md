@@ -138,34 +138,25 @@ O system prompt completo está em [`prompts/system_prompt.md`](prompts/system_pr
 
 ### 1. Qual o problema real terrestre que esta missão resolve?
 
-O Brasil perde centenas de milhares de hectares de vegetação nativa por ano para o desmatamento e incêndios. O principal gargalo não é a falta de satélites — é o tempo entre a detecção orbital e a resposta das brigadas em campo. O EnviroSat resolve esse gap: interpreta telemetria em tempo real e entrega alertas contextualizados em linguagem natural para quem precisa agir, sem exigir que operadores decifrem dados brutos.
+O Brasil perde centenas de milhares de hectares de vegetação nativa por ano para desmatamento e incêndios, e o principal entrave não é a falta de satélites, é o tempo entre a detecção orbital e a resposta de quem está em campo. Operadores precisam interpretar dados brutos de telemetria em tempo real, muitas vezes sem ferramentas adequadas para traduzir esses números em decisões. O EnviroSat resolve esse problema entregando alertas contextualizados em linguagem natural diretamente para brigadas, analistas do INPE e equipes de compliance, reduzindo o tempo de reação e aumentando a efetividade do monitoramento ambiental.
 
 ### 2. Quem paga pela solução?
 
-Modelo híbrido:
-- **Setor público (60%):** INPE, IBAMA, Secretarias Estaduais de Meio Ambiente e Corpo de Bombeiros — que hoje financiam o DETER e o PRODES e pagariam por um sistema de análise inteligente integrado a esses produtos.
-- **Setor privado (40%):** empresas com obrigações ESG, cooperativas agrícolas e fundos de crédito de carbono que precisam de relatórios auditáveis sobre integridade de áreas de reserva legal.
+O modelo de financiamento é híbrido. O setor público, INPE, IBAMA e Secretarias Estaduais de Meio Ambiente, representa cerca de 60% da receita, já que hoje financia sistemas como DETER e PRODES e teria interesse direto em uma camada de análise inteligente integrada a esses produtos. Os outros 40% vêm do setor privado: empresas com obrigações ESG, cooperativas agrícolas e fundos de crédito de carbono que precisam de relatórios auditáveis sobre a integridade de suas áreas de reserva legal.
 
 ### 3. Métrica de impacto
 
-Se o EnviroSat operar 100% saudável por 1 ano:
-- ~**120 milhões de hectares** monitorados continuamente nos biomas prioritários
-- Redução estimada de **30–40%** no tempo de resposta de brigadas (de 48h para ~12h médias)
-- Dados para emissão de **~500 relatórios de compliance** ambiental por ano
-- Potencial de prevenção de **~2 milhões de toneladas de CO₂** em emissões evitadas por contenção precoce de incêndios
+Se o EnviroSat operar com saúde plena por 1 ano, o impacto estimado é o monitoramento contínuo de aproximadamente 120 milhões de hectares nos biomas prioritários brasileiros. O tempo médio de resposta das brigadas a focos detectados cairia de cerca de 48 horas para aproximadamente 12 horas, uma redução de 30 a 40%, o que faz diferença direta na contenção de incêndios antes que se tornem desastres. Em termos climáticos, a contenção precoce de queimadas tem potencial de evitar a emissão de cerca de 2 milhões de toneladas de CO₂ por ano. Além disso, o sistema geraria dados suficientes para embasar aproximadamente 500 relatórios de compliance ambiental anuais para órgãos reguladores.
 
 ### 4. Modelo de negócio
 
-**Dado-como-serviço (DaaS) + SaaS de análise:**
-- Órgãos públicos pagam assinatura anual pelo acesso à plataforma de alertas e relatórios automáticos
-- Empresas privadas pagam por relatório de compliance gerado
-- Fundos de carbono pagam por certificação de monitoramento contínuo de áreas de preservação
+O modelo adotado é Dado-como-serviço (DaaS) combinado com SaaS de análise. Órgãos públicos pagam uma assinatura anual pelo acesso à plataforma de alertas e relatórios automáticos integrados aos seus sistemas de monitoramento. Empresas privadas pagam por relatório de compliance gerado, de acordo com a demanda. Fundos de carbono e seguradoras rurais pagam por certificações de monitoramento contínuo de áreas de preservação, usando os dados do satélite como evidência auditável.
 
 ---
 
 ## 🎬 Vídeo de demonstração
 
-🔗 [Assistir demonstração no YouTube](https://www.youtube.com/watch?v=SEU_ID_AQUI)
+🔗 [Assistir demonstração no YouTube](https://www.youtube.com/watch?v=pIVfq_M7Sy8)
 
 > Configurado como "Não listado" no YouTube.
 
